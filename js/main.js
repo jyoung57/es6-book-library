@@ -1,5 +1,3 @@
-'use strict';
-
-import getBookData from './bookUI';
-
+import getBookData from './apiHandler.js'
+console.log("hello world");
 getBookData()
