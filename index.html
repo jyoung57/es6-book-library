@@ -11,6 +11,13 @@
       <h1>Book Library</h1>
     </header>
     <main>
+      <form id="book-form">
+        <fieldset>
+          <label for="book-query">Enter a Keyword:</label>
+          <input id="book-query" name="book-query" type="text" />
+          <button type="submit">Show Results</button>
+        </fieldset>
+      </form>
       <section id="book-catelog"></section>
     </main>
     <footer>&copy; JYoung Production</footer>
@@ -22,5 +29,6 @@
     <script type="module" src="./js/main.js"></script>
     <script type="module" src="./js/apiHandler.js"></script>
     <script type="module" src="./js/bookUI.js"></script>
+    <script type="module" src="./js/eventHandler.js"></script>
   </body>
 </html>
